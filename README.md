@@ -2,6 +2,8 @@
 
 An interactive BJJ (Brazilian Jiu-Jitsu) positional hierarchy chart built with Next.js. Visualizes positions from best to worst with clickable techniques that open embedded YouTube tutorial videos.
 
+**Live demo:** [jiu-jitsu-positions.vercel.app](https://jiu-jitsu-positions.vercel.app/)
+
 ## Features
 
 - **Tiered position chart** — Positions organized into BEST, Neutral, and WORST tiers with color-coded borders (green, orange, red)
