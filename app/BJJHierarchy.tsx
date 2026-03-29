@@ -321,8 +321,8 @@ export default function BJJHierarchy() {
                         {oi < pos.options.length - 1 ? ", " : "."}
                       </span>
                     ))}
-                    {"note" in pos && pos.note && (
-                      <div style={{ fontWeight: "bold", marginTop: "2px" }}>{pos.note}</div>
+                    {"note" in pos && (pos as { note?: string }).note && (
+                      <div style={{ fontWeight: "bold", marginTop: "2px" }}>{(pos as { note?: string }).note}</div>
                     )}
                   </div>
                 </td>
